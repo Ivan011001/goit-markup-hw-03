@@ -58,9 +58,12 @@ ol {
 }
 
 /* =========== HEADER =========== */
-.header-container {
+.header {
   padding-bottom: 24px;
   padding-top: 24px;
+}
+
+.header-container {
   display: flex;
   justify-content: space-between;
 }
@@ -179,10 +182,11 @@ ol {
   cursor: pointer;
 }
 /* =========== /HERO =========== */
-.info-container {
+.info-section {
   padding-bottom: 120px;
   padding-top: 120px;
 }
+
 .info-list-container {
   display: flex;
   gap: 24px;
@@ -210,17 +214,18 @@ ol {
   text-transform: capitalize;
   color: var(--secondary-text-color);
 }
+
+.product-section {
+  padding-bottom: 120px;
+}
+
 .product-container {
   display: flex;
   justify-content: space-between;
   margin-top: 72px;
-  padding-bottom: 120px;
 }
-.team-container {
-  padding-bottom: 120px;
-}
+
 .team-section-title {
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 .team-list-container {
@@ -229,6 +234,8 @@ ol {
 }
 .team-section {
   background-color: var(--team-section-background-color);
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .name {
@@ -260,10 +267,11 @@ ol {
 }
 
 /* ==========PORTFOLIO========== */
-.portfolio-container {
+.main-section {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
 .button-container {
   display: flex;
   justify-content: center;
@@ -335,14 +343,13 @@ ol {
 /* =========== /MAIN =========== */
 
 /* =========== FOOTER =========== */
-.footer-container {
-  height: 312px;
-  padding-bottom: 100px;
-  padding-top: 100px;
-}
 .footer {
   background-color: var(--footer-section-background-color);
+  padding-bottom: 100px;
+  padding-top: 100px;
+  height: 312px;
 }
+
 .slogan {
   margin-top: 16px;
   font-size: 16px;
